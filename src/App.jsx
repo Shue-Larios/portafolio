@@ -1,8 +1,14 @@
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import reactLogo from './assets/react.svg'
+import { Acerca } from './components/Acerca';
+import { Habilidades } from './components/Habilidades';
 import { Home } from './components/Home';
+import { Navbar } from './components/Navbar';
+import { Sidebar } from './components/Sidebar';
 import { Trabajos } from './components/Trabajos'
 import viteLogo from '/vite.svg'
+import { Contacto } from "./components/Contacto";
 
 const projects = [
   // Agrega más proyectos aquí
@@ -72,22 +78,55 @@ const projects = [
 function App() {
 
 
-
   return (
     <>
+      <Navbar />
+      <Sidebar />
+      {/*
+      <section id='acerca'>
+      <Acerca />
 
-<Home />
+      </section>
+      <section id='habilidades'>
+        <Habilidades />
+      </section>
+ */}
+
+
+
+      {/* <section id='trabajos'> */}
 
       {/* parte de trabajos */}
-      <div className=' w-3/4 px-5 mx-auto pb-3 m-5'>
-        <h1 className='text-white text-4xl text-center pt-5 uppercase'>Trabajos</h1>
-        <p className='text-white  text-center pb-5'>Mira Algunos De Mis Trabajos</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {projects.map((project, index) => (
-            <Trabajos key={index} {...project} />
-          ))}
-        </div>
-      </div>
+
+
+
+
+      <BrowserRouter > 
+        <Routes>
+          <Route  >
+            {/* asi se ponen las rutas si solamente quiero mostrarlas sin nada de seguridad */}
+            <Route index element={<Home />} />
+            <Route path="/acerca" element={<Acerca />} />
+            <Route path="/habilidades" element={<Habilidades />} />
+            <Route path="/trabajos" element={
+              <div className=' w-3/4 px-5 mx-auto pb-3 m-5'>
+                <h1 className='text-white text-4xl text-center pt-5 uppercase'>Trabajos</h1>
+                <p className='text-white  text-center pb-5'>Mira Algunos De Mis Trabajos</p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                  {projects.map((project, index) => (
+                    <Trabajos key={index} {...project} />
+                  ))}
+                </div>
+              </div>
+
+            } />
+            <Route path="/contacto" element={<Contacto />} />
+
+          </Route>
+
+        </Routes>
+
+      </BrowserRouter>
 
     </>
 
