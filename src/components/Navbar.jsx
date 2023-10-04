@@ -13,14 +13,6 @@ export const Navbar = () => {
 
     return (
         <>
-            {/* <div className='text-white flex py-2 pr-10 justify-end'>
-                <a href="/" className='px-4 py-2 hover:bg-gray-700 hover:rounded-full'>Home</a>
-                <a href="acerca" className='px-4 py-2 hover:bg-gray-700 hover:rounded-full'>Acerca de</a>
-                <a href="habilidades" className='px-4 py-2 hover:bg-gray-700 hover:rounded-full'>Habilidad</a>
-                <a href="trabajos" className='px-4 py-2 hover:bg-gray-700 hover:rounded-full'>Trabajos</a>
-                <a href="contacto" className='px-4 py-2 hover:bg-gray-700 hover:rounded-full'>Contacto</a>
-            </div>   */}
-
 
 <div className='relative '>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
@@ -40,7 +32,7 @@ export const Navbar = () => {
           {/* lado derecho */}
           <div className='hidden md:flex space-x-4'>
             <a href='/' className='text-white hover:bg-gray-700 px-4 py-2 rounded-full'>
-              Home
+              Inicio
             </a>
             <a href='acerca' className='text-white hover:bg-gray-700 px-4 py-2 rounded-full'>
               Acerca de
@@ -76,7 +68,7 @@ export const Navbar = () => {
         </div>
       </div>
 
-      {/* Floating Mobile Menu */}
+      {/* Menu movil */}
       {isMenuOpen && (
         <div className='md:hidden absolute top-16 right-4 bg-gray-900 py-2 px-4 rounded-lg'>
           <a href='/' className='block text-white hover:bg-gray-700 px-4 py-2 rounded-full'>
