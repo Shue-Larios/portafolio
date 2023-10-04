@@ -1,6 +1,10 @@
+import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 
 export const Home = () => {
+
+
+
 
     return (
         <div className='flex items-center justify-center md:h-screen md:-mt-14 '>
@@ -40,7 +44,8 @@ export const Home = () => {
 
                         {/* Boton */}
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md mt-5">
-                            Acerca de mí
+                            {/* link de router dom para mandar a otra pantalla  */}
+                            <Link to="acerca">Acerca de mí</Link>
                         </button>
                     </div>
                 </div>
