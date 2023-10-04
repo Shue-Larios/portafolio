@@ -3,10 +3,17 @@ import Typewriter from 'typewriter-effect';
 export const Home = () => {
 
     return (
-        <div className='flex items-center justify-center h-screen -mt-14'>
-            <div className='w-3/4 gap-10 px-5 mx-auto pb-3 columns-2 text-center flex justify-between'>
-                <div className="flex flex-col justify-center">
-                    <h1 className='text-white text-6xl text-left mb-5'>
+        <div className='flex items-center justify-center md:h-screen md:-mt-14 '>
+            <div className='w-3/4 flex items-center justify-center flex-col-reverse md:flex-row gap-10
+             px-5 
+             mx-auto 
+             md:pb-3 
+             md:columns-2 
+             text-center 
+             md:flex 
+             md:justify-between'>
+                <div className="flex flex-col justify-center mb-5">
+                    <h1 className='text-white text-6xl text-left mb-5 '>
                         Soy un desarrollador web Full Stack
                     </h1>
 
