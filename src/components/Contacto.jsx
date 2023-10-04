@@ -40,21 +40,22 @@ export const Contacto = () => {
 
   return (
     <>
-      <section className='flex items-center justify-center h-screen -mt-16'>
+      <section className='flex items-center justify-center md:h-screen md:-mt-16'>
+        <div className='max-sm:w-3/4 '>
         <form className="bg-sky-700 p-8 rounded-3xl"
           onSubmit={handleSubmit}>
           <fieldset>
             <legend className='text-center text-white text-2xl uppercase font-bold mb-5'>Contactame llenando todos los campos</legend>
-            <div className="">
-              <div className='flex gap-10'>
-                <div className="mb-2 w-1/2">
-                  <label htmlFor="nombre" className='text-white font-bold mb-1 block'>Nombre</label>
+            <div>
+              <div className='md:flex gap-10'>
+                <div className="mb-2 md:w-1/2">
+                  <label htmlFor="nombre" className='text-white font-bold mb-1 block '>Nombre</label>
                   <input id='nombre' className="w-full rounded p-1" type="text" placeholder="Tu Nombre"
                     value={nombre}
                     onChange={(e) => setNombre(e.target.value)}
                   />
                 </div>
-                <div className="mb-2 w-1/2">
+                <div className="mb-2 md:w-1/2">
                   <label htmlFor="telefono" className='text-white font-bold mb-1 block'>Telefono</label>
                   <input id='telefono' className="w-full rounded p-1" type="tel" placeholder="Tu Telefono"
                     value={telefono}
@@ -84,6 +85,8 @@ export const Contacto = () => {
             </div>
           </fieldset>
         </form>
+        </div>
+       
       </section>
     </>
   )

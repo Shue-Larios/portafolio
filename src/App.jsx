@@ -80,28 +80,9 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Sidebar />
-      {/*
-      <section id='acerca'>
-      <Acerca />
-
-      </section>
-      <section id='habilidades'>
-        <Habilidades />
-      </section>
- */}
-
-
-
-      {/* <section id='trabajos'> */}
-
-      {/* parte de trabajos */}
-
-
-
-
-      <BrowserRouter > 
+      <BrowserRouter >
+        <Navbar />
+        <Sidebar />
         <Routes>
           <Route  >
             {/* asi se ponen las rutas si solamente quiero mostrarlas sin nada de seguridad */}
@@ -118,14 +99,10 @@ function App() {
                   ))}
                 </div>
               </div>
-
             } />
             <Route path="/contacto" element={<Contacto />} />
-
           </Route>
-
         </Routes>
-
       </BrowserRouter>
 
     </>
