@@ -13,7 +13,7 @@ export const Home = () => {
              md:flex 
              md:justify-between'>
                 <div className="flex flex-col justify-center mb-5">
-                    <h1 className='text-white text-6xl text-left mb-5 '>
+                    <h1 className='text-white text-4xl md:text-6xl text-left mb-5 '>
                         Soy un desarrollador web Full Stack
                     </h1>
 
@@ -47,7 +47,7 @@ export const Home = () => {
                 {/* imagen */}
                 <div>
                     <img
-                        className='max-w-sm'
+                        className='md:max-w-sm'
                         src="https://firebasestorage.googleapis.com/v0/b/restaurant-63fb0.appspot.com/o/imagenes%2FIMG_6165ov.png?alt=media&token=4e47e9a6-05d9-4ea3-92f0-e0ceab6c927e&_gl=1*rb9ma3*_ga*NjU3MzEyOTI1LjE2OTU3OTkyNzM.*_ga_CW55HF8NVT*MTY5NTg3NTc0OC4zLjEuMTY5NTg3NjI5Mi41OC4wLjA." alt="imagen profesional" />
                 </div>
             </div>
