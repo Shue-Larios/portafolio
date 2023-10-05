@@ -1,13 +1,11 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import reactLogo from './assets/react.svg'
 import { Acerca } from './components/Acerca';
 import { Habilidades } from './components/Habilidades';
 import { Home } from './components/Home';
 import { Navbar } from './components/Navbar';
 import { Sidebar } from './components/Sidebar';
 import { Trabajos } from './components/Trabajos'
-import viteLogo from '/vite.svg'
 import { Contacto } from "./components/Contacto";
 
 const projects = [

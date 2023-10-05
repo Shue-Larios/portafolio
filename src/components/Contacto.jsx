@@ -40,7 +40,8 @@ export const Contacto = () => {
 
   return (
     <>
-      <section className='flex items-center justify-center md:h-screen md:-mt-16'>
+      <section className='flex items-center justify-center lg:h-screen lg:-mt-16'>
+        {/* esto indica un querie de tamaño maximo max-sm:w-3/4  */}
         <div className='max-sm:w-3/4 '>
         <form className="bg-sky-700 p-8 rounded-3xl"
           onSubmit={handleSubmit}>

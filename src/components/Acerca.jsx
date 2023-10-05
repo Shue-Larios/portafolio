@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Acerca = () => {
 
@@ -17,7 +18,16 @@ export const Acerca = () => {
                         <h2 className='md:text-right text-2xl md:text-4xl md:w-1/2 font-bold mb-5 md:mb-0'>Hola. Soy Rene Larios, encantado de conocerte. Echa un vistazo a tu alrededor</h2>
                         <h4 className='md:w-1/2 flex items-center'>Soy alguien que se especializa en crear aplicaciones web que se adaptan a diferentes dispositivos y crecen fácilmente con el tiempo. Tengo un buen entendimiento de cómo hacer que las aplicaciones se vean y funcionen de manera amigable para el usuario.</h4>
                     </div>
+
+                    {/* Boton */}
+                     <div className='flex  justify-end mt-3'>
+                       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">
+                        <Link to="/trabajos">Ver Trabajos</Link>
+                    </button> 
+                    </div>  
+
                 </div>
+
             </div>
         </>
     )

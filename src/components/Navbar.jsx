@@ -29,6 +29,8 @@ export const Navbar = () => {
                 to='/'
                 className='text-white text-xl font-bold'>
                 <img
+                 //  {/* draggable="false" /* Deshabilitar el arrastre de la imagen  */}
+                         draggable="false"
                   className='w-24 h-auto'
                   src="https://firebasestorage.googleapis.com/v0/b/restaurant-63fb0.appspot.com/o/imagenes%2FLogo%20Rene%20LArios.png?alt=media&token=40880050-efd0-47c0-916c-7b170ef92f1d&_gl=1*rud38e*_ga*NjU3MzEyOTI1LjE2OTU3OTkyNzM.*_ga_CW55HF8NVT*MTY5NjA1NDA1My41LjEuMTY5NjA1NDYwMy41Mi4wLjA." alt="Logo Personal"
                   title='Logo Rene Larios'
