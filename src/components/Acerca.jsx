@@ -21,7 +21,8 @@ export const Acerca = () => {
 
                     {/* Boton */}
                      <div className='flex  justify-end mt-3'>
-                       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">
+                     
+                       <button className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-md">
                         <Link to="/trabajos">Ver Trabajos</Link>
                     </button> 
                     </div>  
