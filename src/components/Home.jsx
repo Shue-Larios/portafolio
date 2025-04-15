@@ -7,17 +7,11 @@ export const Home = () => {
 
 
     return (
-        <div className='flex items-center justify-center lg:h-screen lg:-mt-10 md:mt-24'>
-            <div className='w-3/4 flex items-center justify-center flex-col-reverse sm:flex-row gap-10
-             px-5 
-             mx-auto 
-             lg:pb-3 
-             lg:columns-2 
-             text-center 
-             lg:flex 
-             lg:justify-between'>
-                <div className="flex flex-col justify-center mb-5">
-                    <h1 className='text-white text-4xl sm:text-6xl text-left mb-5 '>
+        <div className='flex items-center justify-center lg:h-full'>
+
+            <div className='w-3/4 flex items-center justify-center flex-col-reverse sm:flex-row gap-10         '>
+                <div className="flex flex-col justify-center mt-16 max-sm:mt-0">
+                    <h1 className='text-white md:text-4xl  lg:text-6xl max-md:text-4xl  mb-5 '>
                         Soy un desarrollador web Full Stack
                     </h1>
 

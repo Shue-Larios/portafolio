@@ -13,21 +13,22 @@ const proyectos = [
   {
     id: 1,
     title: 'Control de Presupuesto',
-    description: 'Control de Presupuesto en React con Vite y LocalStorage',
+    description: 'Control de Presupuesto en React con Vite y LocalStorage proyecto del curso React - La Guía Completa: Hooks Context Redux MERN +15 Apps de Juan Pablo De la torre Valdez ',
     url: 'https://resplendent-otter-9acca3.netlify.app/',
+
   },
   {
     id: 2,
 
     title: 'Administrador de Pacientes',
-    description: 'Administrador de Pacientes en Vite, Tailwind CSS y LocalStorage',
+    description: 'Administrador de Pacientes en Vite, Tailwind CSS y LocalStorage proyecto del curso React - La Guía Completa: Hooks Context Redux MERN +15 Apps de Juan Pablo De la torre Valdez ',
     url: 'https://veteri-citas-react.netlify.app/',
   },
   {
     id: 3,
 
     title: 'Uptask',
-    description: 'Proyecto MERN Stack con TailwindCSS Headless UI, Context API, Socket IO - MongoDB',
+    description: 'Proyecto MERN Stack con TailwindCSS Headless UI, Context API, Socket IO - MongoDB proyecto del curso React - La Guía Completa: Hooks Context Redux MERN +15 Apps de Juan Pablo De la torre Valdez ',
     url: 'https://uptask-mern-shue.netlify.app/',
   },
   {
@@ -41,7 +42,7 @@ const proyectos = [
     id: 5,
 
     title: 'CalendarApp',
-    description: 'React con Vite Backend - Node, Express,Mong',
+    description: 'React con Vite Backend - Node, Express,Mong proyecto del curso React: De cero a experto ( Hooks y MERN ) de Fernando Herrera',
     url: 'https://fascinating-platypus-c3bc2a.netlify.app/',
   },
 
@@ -63,23 +64,28 @@ const proyectos = [
     id: 8,
 
     title: 'Buscador de Gif',
-    description: 'React con Vite consumiendo una Api',
+    description: 'React con Vite consumiendo una Api proyecto del curso React: De cero a experto ( Hooks y MERN ) de Fernando Herrera',
     url: 'https://gif-buscador-shue.netlify.app/',
   },
   {
     id: 9,
-
     title: 'Lugares y Puntos',
     description: 'React con Vite  utlizando la APi de Google Maps',
     url: 'https://lugares-puntos-rene1.netlify.app/#/auth/login',
   },
   {
     id: 10,
-
     title: 'Sitio Freelancer',
     description: 'un Proyecto con HTML y CSS',
     url: 'https://rene-larios-freelancer.netlify.app/',
+  },
+  {
+    id: 11,
+    title: 'Criptomonedas',
+    description: 'Consulta de Precios de Criptomonedas mediante el API de Cryptocompare proyecto del curso React - La Guía Completa: Hooks Context Redux MERN +15 Apps de Juan Pablo De la torre Valdez ',
+    url: 'https://wonderful-rugelach-bd9050.netlify.app/',
   }
+
 ];
 
 function App() {
