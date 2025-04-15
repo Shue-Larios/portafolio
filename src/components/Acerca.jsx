@@ -6,7 +6,7 @@ export const Acerca = () => {
     return (
         <>
             {/* el div centrado */}
-            <div className="flex justify-center h-auto w-auto max-sm:-my-16 m-3">
+            <div className="flex justify-center h-auto w-auto max-sm:-my-16 max-sm:pt-16  m-2">
                 <div className='w-3/4 p-5
                  text-white
                   bg-sky-700 rounded-xl'>
